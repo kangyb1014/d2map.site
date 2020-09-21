@@ -1,0 +1,14 @@
+name: Upload s3
+on: 
+    pull_request:
+        branches:
+            - master
+    push:
+        branches:
+            - [ version1.1, master ]
+jobs:   
+    - name: Deploy
+        env:
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run:  aws s3 cp  --recursive  --region ap-northeast-2 . s3://cleatgithubactiontest # 자신의 레포지토리로 변경해주세요.
