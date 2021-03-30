@@ -8,7 +8,9 @@ var imagelinks={
     'scourgeofthepast':'/ko/img/scourgeofthepast.webp',
     'shatteredthrone':'/ko/img/shatteredthrone.jpg',
     'zerohour':'https://i.imgur.com/BAqFBHY.png',
-    'leviathangarden_prestige':'/ko/img/leviathangarden_presitge.jpg'
+    'leviathangarden_prestige':'/ko/img/leviathangarden_presitge.jpg',
+	'deepstonesparrow':'/ko/img/deepstonesparrow.jpg',
+	'wishwall':'/ko/img/wishwall.jpg'
 }
 
 function changeImage(type){
