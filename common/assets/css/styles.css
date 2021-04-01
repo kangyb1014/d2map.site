@@ -133,7 +133,7 @@ section, footer, nav{
 /* transition animation on hover */
 
 #colorNav li:hover ul{
-	max-height:200px; /* Increase when adding more dropdown items */
+	max-height:600px; /* Increase when adding more dropdown items */
 }
 
 
